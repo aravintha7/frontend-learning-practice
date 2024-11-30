@@ -19,3 +19,12 @@ svg - <https://undraw.co/illustrations>
 
 Tool used for deploying the plain Html site -> <https://app.netlify.com/>
 Site -> <https://first-site-vvs.netlify.app/>
+Other Sites -> <https://render.com/docs/free>
+
+## iframe
+
+visit this page and check how the different target attribute values from nested iframes
+
+## validator
+
+html validator -> <https://validator.w3.org/nu/#file>
