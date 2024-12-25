@@ -1,0 +1,48 @@
+body {
+  padding: 20px;
+}
+
+.container {
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+}
+
+.static {
+  position: static;
+  /* offset values are not applicable */
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* If no ancestor has a position value other than static, the absolutely positioned element defaults to being positioned relative to the initial containing block (ICB), which is typically the root element (<html> or <body>). */
+}
+
+.relative {
+  position: relative;
+  top: 0;
+  left: 100px;
+  top: 100px;
+}
+
+.container-relative {
+  position: relative;
+  padding: 20px;
+  border: 2px solid black;
+  left: 100px;
+}
+
+.absolute-relative {
+  position: absolute;
+  height: 120px;
+  width: 480px;
+  top: 0;
+  right: 0;
+}

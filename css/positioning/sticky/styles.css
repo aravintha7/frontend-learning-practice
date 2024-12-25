@@ -1,0 +1,35 @@
+body {
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.content-section {
+  margin-bottom: 500px;
+}
+
+.content {
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.sticky-header {
+  position: sticky;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  top: 0;
+  z-index: 1; /* Ensure the header stays above the content */
+}
+
+.sticky-container {
+  position: relative; /* Make this the relative positioned ancestor */
+  height: 300px; /* Set a height to make it scrollable */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 2px solid #ddd; /* Just to make it visible */
+}
