@@ -8,8 +8,9 @@ Iframe <https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_iframe>
 Emojis <https://www.webfx.com/tools/emoji-cheat-sheet>  
 Entities <https://www.reilldesign.com/tutorials/character-entity-reference-chart.html>  
 icons
- - cdn (Content Delivery Network) - <https://cdnjs.com/libraries/font-awesome>  
- - class - <https://fontawesome.com/icons/github?f=brands&s=solid>  
+
+- cdn (Content Delivery Network) - <https://cdnjs.com/libraries/font-awesome>  
+- class - <https://fontawesome.com/icons/github?f=brands&s=solid>  
 free hd images, mp3, mp4  
 pixabay - <https://pixabay.com/>  
 
@@ -29,3 +30,7 @@ visit this page and check how the different target attribute values from nested 
 ## validator
 
 html validator -> <https://validator.w3.org/nu/#file>  
+
+## flexbox playground
+
+Flexbox Playground A web app for exploring Flexbox Reset to Defaults View Markup Container. Items. Edit properties of the flex container here. -> <https://flexbox.tech/>  
