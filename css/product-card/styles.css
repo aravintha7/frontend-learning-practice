@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
+.product-card-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: rgb(240, 230, 210);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* padding: 20px; */
+  width: 300px;
+}
+.product-offer {
+  position: absolute;
+  font-weight: 400;
+  font-size: 12px;
+  background-color: crimson;
+  /* rotate: 45deg; */
+  transform: rotate(45deg);
+  padding: 6px 10px;
+  text-align: center;
+  width: 100px;
+  color: white;
+  top: 15px;
+  /* left: 210px; */
+  right: -33px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.product-image {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.product-info {
+  padding: 20px;
+}
+.product-name {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.product-price {
+  display: flex;
+  flex-direction: row;
+}
+.product-price-value,
+.price-tax-inc {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.price-tax-inc {
+  padding: 4px;
+  font-size: small;
+}
+
+.product-description {
+  font-style: italic;
+}
+
+.add-to-cart {
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(135, 92, 13);
+  border: 0;
+  margin: 0px 20px 20px 20px;
+  line-height: 25px;
+  border-radius: 5px;
+  color: beige;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.fa-cart-shopping {
+  color: beige;
+  margin-right: 10px;
+}
+/* test */

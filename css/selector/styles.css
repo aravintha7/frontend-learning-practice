@@ -1,0 +1,27 @@
+h1,
+p {
+  color: #2c3e50;
+  font-family: Arial, Sans-Serif;
+  margin-bottom: 20px;
+}
+
+[type="text"] {
+  background-color: #f0f8ff;
+  border-color: #3498db;
+}
+[type="submit"] {
+  background-color: #2ecc71;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  /* oncursor: pointer; */
+  color: red;
+  text-decoration: underline;
+}
+
+.paragraph::first-letter {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Static vs Absolute</h1>
+    <div class="container">
+      <h2>Static</h2>
+      <div class="box static">static</div>
+      <p>
+        This box has <code>position: static</code> (default value). The element
+        will be positioned according to the normal document flow, meaning it
+        will occupy space in the layout without any adjustments from top, left,
+        or other offset properties
+      </p>
+      <h2>Absolute with ancestor position: non relative</h2>
+      <div class="box absolute">absolute</div>
+      <p>
+        The <code>position: absolute</code> element will position itself
+        relative to the nearest positioned ancestor (non-static). If no such
+        ancestor exists, it defaults to being positioned relative to the initial
+        containing block (ICB), typically the root element.
+      </p>
+
+      <div class="container-relative">
+        <h2>Relative container</h2>
+        <p>
+          This box has <code>position: relative</code>. The
+          <code> left: 100px;</code> has made the container move to the right
+        </p>
+        <h3>Absolute with ancestor position: relative</h3>
+        <div class="box absolute-relative">absolute</div>
+        <p>
+          The absolutely positioned element is now positioned relative to its
+          nearest positioned ancestor (.container-relative).
+        </p>
+        <h3>
+          Relative box with ancestor position: relative (relative positioned
+          container)
+        </h3>
+        <div class="box relative">Relative</div>
+        <p>
+          This box is moved 100px from the top and 100px from the left of its
+          original position within the .container-relative.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+/* specificity rules go here */
+/* inline -> id -> class -> attribute -> tag/element */
+/* 1000pts > 100pts > 10pts > 1pt */
+/* https://specificity.keegan.st/ */
+/* when multiple rules have the same specificity, the last one wins */
+/* https://www.w3schools.com/css/css_specificity.asp */
+/* If there are two or more CSS rules that point to the same element, the selector with the highest specificity will "win", and its style declaration will be applied to that HTML element. */
+
+div {
+  color: green;
+}
+.class {
+  color: blue;
+}
+#important-box {
+  color: red;
+}
+.text {
+  color: red;
+}
+#id-select {
+  color: blue;
+}

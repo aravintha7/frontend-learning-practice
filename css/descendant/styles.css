@@ -1,0 +1,9 @@
+.parent h1 {
+  /* all h1 child */
+  color: red;
+}
+
+.parent > p {
+  /* only direct child */
+  color: rgb(232, 197, 225);
+}
