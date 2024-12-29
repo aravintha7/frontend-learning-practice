@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: yellow;
+  height: 200vh;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+/* larger phones */
+@media (min-width: 375px) {
+  .header {
+    background-color: green;
+    font-size: 5rem;
+  }
+}
+
+/* Tablet devices */
+@media (min-width: 768px) {
+  .header {
+    background-color: blue;
+    font-size: 8rem;
+  }
+}
+
+/* desktop - normal */
+@media (min-width: 1024px) {
+  .header {
+    background-color: red;
+    font-size: 10rem;
+  }
+}
+
+/* large desktops */
+@media (min-width: 1200px) {
+  .header {
+    background-color: purple;
+    font-size: 12rem;
+    font-style: italic;
+  }
+}

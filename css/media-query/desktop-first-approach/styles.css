@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: yellow;
+  height: 100vh;
+  font-size: 12rem;
+  color: white;
+  font-weight: bold;
+}
+/* desktop normal */
+@media (max-width: 1200px) {
+  .header {
+    background-color: red;
+    font-size: 10rem;
+  }
+}
+
+/* tablet devices */
+@media (max-width: 1023px) {
+  .header {
+    background-color: blue;
+    font-size: 8rem;
+  }
+}
+
+/* larger smart phones */
+@media (max-width: 768px) {
+  .header {
+    background-color: green;
+    font-size: 3rem;
+  }
+}
+
+/* This media query applies to all media types (screen, print, etc.) with a maximum width of 1200px. */
+/* small mobile devices */
+@media (max-width: 375px) {
+  .header {
+    background-color: orange;
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: yellow;
+  height: 200vh;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+/* larger phones */
+@media (min-width: 375px) {
+  .header {
+    background-color: green;
+    font-size: 5rem;
+  }
+}
+
+/* Tablet devices */
+@media (min-width: 768px) {
+  .header {
+    background-color: blue;
+    font-size: 8rem;
+  }
+}
+
+/* desktop - normal */
+@media (min-width: 1024px) {
+  .header {
+    background-color: red;
+    font-size: 10rem;
+  }
+}
+
+/* This media query applies to all media types (screen, print, etc.) with a maximum width of 1200px. */
+/* large desktops */
+@media (min-width: 1200px) {
+  .header {
+    background-color: purple;
+    font-size: 12rem;
+    font-style: italic;
+  }
+}
+
+/* This media query specifically applies only to screen devices with a maximum width of 1200px. */
+@media screen and (min-width: 1200px) {
+  .header {
+    background-color: purple;
+    font-size: 12rem;
+    font-style: italic;
+  }
+}
+
+/* In summary, the first media query is more general and applies to all media types, while the second one is specific to screen devices. */
+
+/* The second media query will override the first one for screen devices with a maximum width of 1200px. */
