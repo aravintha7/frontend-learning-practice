@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Containers</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Adding custom styles for background colors */
+      .bg-custom-lightblue {
+        background-color: #add8e6;
+      }
+      .bg-custom-pink {
+        background-color: #ffb6c1;
+      }
+      .bg-custom-yellow {
+        background-color: #fffacd;
+      }
+      .bg-custom-green {
+        background-color: #90ee90;
+      }
+      .bg-custom-purple {
+        background-color: #dda0dd;
+      }
+      .bg-custom-orange {
+        background-color: #ffa500;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Standard container -->
+    <div class="bg-custom-green mb-3 container border">
+      <div class="p-2">Standard container (fixed-width)</div>
+    </div>
+
+    <!-- Full width container, spanning the entire width of the viewport -->
+    <div class="container-fluid mb-3 bg-custom-lightblue border">
+      <div class="p-3">Full width container (fluid)</div>
+    </div>
+
+    <!-- 100% wide until small breakpoint -->
+    <div class="container-sm mb-3 bg-custom-pink border">
+      <div class="p-3">100% wide until small breakpoint</div>
+    </div>
+
+    <!-- 100% wide until medium breakpoint -->
+    <div class="container-md mb-3 bg-custom-yellow border">
+      <div class="p-3">100% wide until medium breakpoint</div>
+    </div>
+
+    <!-- 100% wide until large breakpoint -->
+    <div class="container-lg mb-3 bg-custom-purple border">
+      <div class="p-3">100% wide until large breakpoint</div>
+    </div>
+
+    <!-- 100% wide until extra large breakpoint -->
+    <div class="container-xl mb-3 bg-custom-orange border">
+      <div class="p-3">100% wide until extra large breakpoint</div>
+    </div>
+
+    <!-- 100% wide until extra extra large breakpoint -->
+    <div class="container-xxl mb-3 bg-custom-green border">
+      <div class="p-3">100% wide until extra extra large breakpoint</div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
